@@ -93,22 +93,34 @@ body {
 
 .main-content {
 	position: relative;
-	margin-top: -120px;
+	margin: -120px auto 0;
+	padding: 50px 0;
 
 	background-color: #002A44;
-	height: 800px;
 	width: 100%;
+}
+
+	.about-body {
+		margin: 0 12vw;
+	}
+
+		#slogan {
+			margin-bottom: 100px;
+		}
+
+		.section {
+			margin: 55px 10% 0;
+		}
+
+
+.footer-wrapper {
+	margin: 0 auto;
+	width: 90vw;
 }
 
 
 @media only screen and (max-width: 768px) {
 	.parallax-content {display: none;}
 	.nonparallax-content {display: block;}
-	.main-content {margin-top: -40px;}
-}
-
-
-#about-wrapper {
-	margin: 0 auto;
-	width: 70vw;
+	.main-content {margin-top: -100px;}
 }
